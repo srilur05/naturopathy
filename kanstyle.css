@@ -60,15 +60,15 @@ text-decoration:none;
 
 /* products page */
 
-.medicines {
+  .medicines {
     width:400px;
-    height:500px;
+    height:550px;
     border: 1px solid rgb(190, 135, 15);
     display:inline-block;
-    float: left;
+    float: left; 
     margin-top:20px;
     margin-left:40px
-}
+} 
 
 .heading {
     color:darkred; 
@@ -78,7 +78,7 @@ text-decoration:none;
     background-color: rgb(50, 255, 50);
 }
 
-.button {
+   .button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -88,4 +88,21 @@ text-decoration:none;
     font-size: 16px;
     margin-top: 30px;
     margin-left: 600px;
+ }  
+
+ .buy {
+   position: relative;
+   left:100px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+ }
+
+ .total {
+   position: relative;
+   left:50px;
  }

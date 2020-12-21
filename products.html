@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,124 +13,114 @@
 
     <header class = 'heading'> Kerala Ayurvedic Naturopathy </header>
 
-    <!-- list of medicines -->
+
+    <!-- list of products --> 
 
     <div class = 'medicines'>
         <img src = 'https://www.ayush.com/ecom_img/original-88-369-adult-ashwagandha-drops.png' style = 'height:350px'> 
         <h3 style = 'margin-left:50px'> 120 RS-/- </h3>
-        <form>
-            <input type="checkbox" name = 'medicines' value = 'ashwagandha-drops:120 RS-/-'>
-            <label> Select </label>  </form>
         <p> Recommended dose can be found in the pamphlet.</p>
+        <p> <span id = '1'> number of pieces: </span>   <span id = 'ashwagandha' class = 'total'> TOTAL: </span> </p>
+        <button class="buy" onclick= " numberofpieces(1); total(ashwagandha, 120)">  Buy </button>      
+    
   </div>
 
   <div class = 'medicines'>
     <img src = 'https://www.ayush.com/ecom_img/original-91-378-adult-trifal-drops.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 200 RS-/- </h3>
-    <form>
-        <input type="checkbox" name = 'medicines' value = 'tifal drops:200 RS-/-'>
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '2'> number of pieces:  </span>   <span id = 'trifal-drops' class = 'total'> TOTAL: </span> </p>
+    <button class="buy" onclick=" numberofpieces(2); total(trifal-drops,200);">  Buy </button>      
+
 </div>
 
 <div class = 'medicines'>
     <img src = 'https://www.ayush.com/ecom_img/amlaoil.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 100 RS-/- </h3>
-    <form>
-        <input type="checkbox"name = 'medicines' value = 'amla oil:100 RS-/-' >
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '3'> number of pieces:  </span>   <span id = 'amlaoil' class = 'total'> TOTAL: </span> </p>
+    <button class="buy" onclick=" numberofpieces(3); total(amlaoil,100);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
     <img src = 'https://www.ayush.com/ecom_img/original-49-133-arjuna-heart-cardiovascular-support-90-vegetarian-capsules.png' 
-                      style = 'height:350px'> 
+         style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 350 RS-/- </h3>
-    <form>
-        <input type="checkbox" name = 'medicines' value = 'arjuna heart:350 RS-/-'>
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '4'> number of pieces:  </span>   <span id = 'arjuna-heart' class = 'total'> TOTAL: </span> </p>
+    <button class="buy" onclick=" numberofpieces(4); total(arjuna-heart,350);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
     <img src = 'https://www.ayush.com/ecom_img/original-29-83-baby-massage-oil.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 80 RS-/- </h3>
-    <form>
-        <input type="checkbox" name = 'medicines' value = 'baby massage oil:80 RS-/-'>
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '5'> number of pieces: </span>   <span id = 'baby-massage-oil' class = 'total'> TOTAL:</span> </p>
+    <button class="buy" onclick=" numberofpieces(5); total(baby-massage-oil,80);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
     <img src = 'https://www.ayush.com/ecom_img/basiloil.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 65 RS-/- </h3>
-    <form>
-        <input type="checkbox" name = 'medicines' value = 'basil oil:65 RS-/-'>
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '6'> number of pieces: </span>   <span id = 'basiloil' class = 'total' > TOTAL:</span> </p>
+    <button class="buy" onclick=" numberofpieces(6); total(basiloil,65);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
- <img src = 'https://www.ayush.com/ecom_img/original-60-172-curcumin-97-musculoskeletal-support-90-vegetarian-capsules.png' 
-             style = 'height:350px'> 
+ <img src = 'https://www.ayush.com/ecom_img/
+ original-60-172-curcumin-97-musculoskeletal-support-90-vegetarian-capsules.png'  style = 'height:350px'> 
 <h3 style = 'margin-left:50px'> 200 RS-/- </h3>
-<form>
-    <input type="checkbox"name = 'medicines' value = 'curcumin-97:200 RS-/-' >
-    <label> Select </label>  </form>
 <p> Recommended dose can be found in the pamphlet.</p>
+<p> <span id = '7'> number of pieces: </span>   <span id = 'curcumin' class = 'total'> TOTAL:</span> </p>
+<button class="buy" onclick=" numberofpieces(7); total(curcumin,200);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
 <img src = 'https://www.ayush.com/ecom_img/original-20-256-bs_energytea.png' style = 'height:350px'> 
 <h3 style = 'margin-left:50px'> 150 RS-/- </h3>
-<form>
-    <input type="checkbox"name = 'medicines' value = 'energy tea:150 RS-/-' >
-    <label> Select </label>  </form>
 <p> Recommended dose can be found in the pamphlet.</p>
+<p> <span id = '8'>number of pieces:  </span>   <span id = 'energytea' class = 'total'> TOTAL: </span> </p>
+<button class="buy" onclick=" numberofpieces(8); total(energytea,150);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
 <img src = 'https://www.ayush.com/ecom_img/original-27-73-fish-oil-bottle.png' style = 'height:350px'> 
 <h3 style = 'margin-left:50px'> 220 RS-/- </h3>
-<form>
-    <input type="checkbox"name = 'medicines' value = 'original fish oil:220 RS-/-' >
-    <label> Select </label>  </form>
 <p> Recommended dose can be found in the pamphlet.</p>
+<p> <span id = '9'> number of pieces:</span>   <span id = 'fish-oil' class = 'total' > TOTAL: </span> </p>
+<button class="buy" onclick=" numberofpieces(9); total(fish-oil,220);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
 <img src = 'https://www.ayush.com/ecom_img/original-21-260-bs_greentea.png' style = 'height:350px'> 
 <h3 style = 'margin-left:50px'> 160 RS-/- </h3>
-<form>
-    <input type="checkbox" name = 'medicines' value = 'green tea:160 RS-/-'>
-    <label> Select </label>  </form>
 <p> Recommended dose can be found in the pamphlet.</p>
+<p> <span id = '10'> number of pieces:  </span>   <span id = 'greentea' class = 'total' > TOTAL: </span> </p>
+<button class="buy" onclick=" numberofpieces(10); total(greentea,160);">  Buy </button> 
 </div>
 
 <div class = 'medicines'>
      <img src = 'https://www.ayush.com/ecom_img/original-80-240-narayan-oil-product-pic.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 200 RS-/- </h3>
-    <form>
-        <input type="checkbox"name = 'medicines' value = 'narayan oil:200 RS-/-' >
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '11'> number of pieces: </span>  <span id = 'narayan-oil' class = 'total'> TOTAL: </span> </p>
+    <button class="buy" onclick= "numberofpieces(11); total(narayan-oil,200);">  Buy </button> 
     </div>
     
     <div class = 'medicines'>
      <img src = 'https://www.ayush.com/ecom_img/original-16-252-probiotic-100b.png' style = 'height:350px'> 
     <h3 style = 'margin-left:50px'> 400 RS-/- </h3>
-    <form>
-        <input type="checkbox" name = 'medicines' value = 'probiotic:400 RS-/-'>
-        <label> Select </label>  </form>
     <p> Recommended dose can be found in the pamphlet.</p>
+    <p> <span id = '12'> number of pieces:  </span>   <span class = 'total' id = 'probiotic'> TOTAL: </span> </p>
+    <button class="buy" onclick= "numberofpieces(12); total(probiotic,400);">  Buy </button> 
     </div> 
 
-    <div id = 'cart' style = 'margin-top:100px; margin-left:50px'> </div>
-
-    <button class="button" id = 'button' onclick="document.getElementById('cart').innerHTML =(getCheckedCheckboxesFor('medicines'));" > 
-        Submit </button>
-
-
+    <br> <br>
     
+    <div id = 'cart' style = 'margin-top:100px; margin-left:50px'> The total amount is: </div>
+
+    <button class="button" onclick= 'calculate()'> Submit </button>      
+
 </body>
       </html>
